@@ -10,7 +10,7 @@ public class ShuffleArray {
 		
 		int[] arr = {1, 2, 3, 4, 5, 6, 7};
 
-        System.out.println(arr);
+        System.out.println("Original Array"+" "+Arrays.toString(arr));
 
         // Shuffle the array
         shuffleArray(arr);
